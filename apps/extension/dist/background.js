@@ -1,1 +1,0 @@
-chrome.runtime.onMessage.addListener((t,n,r)=>{if(t.action==="score")return fetch("http://127.0.0.1:8001/v1/score/url",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({url:t.url,html:t.html||""})}).then(e=>e.json()).then(e=>r({data:e})).catch(e=>r({error:"API down: "+e.message})),!0});
