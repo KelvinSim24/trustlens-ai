@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TrustLens AI",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

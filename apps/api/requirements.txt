@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+beautifulsoup4
+whois
+python-whois
+requests
+textstat
+python-whois==0.8.0

@@ -1,0 +1,117 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #475569;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59,130,246,0.1);
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #3b82f6, #1d4ed8);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+  border-radius: 1rem;
+  border-left: 6px solid #3b82f6;
+  text-align: left;
+}
+
+.score {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+.evidence {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: #475569;
+}
+
+.evidence strong {
+  color: #1e40af;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}

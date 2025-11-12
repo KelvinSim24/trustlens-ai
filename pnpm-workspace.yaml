@@ -1,0 +1,6 @@
+# pnpm-workspace.yaml
+packages:
+  - "apps/mobile"
+  - "apps/extension"
+  - "packages/*"
+  # REMOVED: 'apps/*' → we only want JS/TS apps
